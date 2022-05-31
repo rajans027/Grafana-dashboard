@@ -56,10 +56,10 @@ https://docs.influxdata.com/influxdb/v1.8/tools/grafana/
 Add a dashboard template, I have used a simple linux host template id #1375
 Setting up telegraf
 ```
-`sudo apt install telegraf'
+sudo apt install telegraf
 
 Change the conf file
 
-`sudo nano /etc/telegraf/telegraf.conf' add the configuration changes under influxdb using the format provided in the conf file itself
+sudo nano /etc/telegraf/telegraf.conf' add the configuration changes under influxdb using the format provided in the conf file itself
 ```
 exit, save and restart telgraf. Check your grafana dashboard and you should see the values popping up.
